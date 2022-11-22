@@ -47,7 +47,17 @@ body {
 
 .cabecalho-menu-wppitem {
     height: 35px;
-    
+}
+
+.cabecalho-menu-login {
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.cabecalho-menu-login:hover {
+    color: aquamarine;
 }
 
 .conteudo {
@@ -167,4 +177,73 @@ body {
     height: 200px;
     display: block;
     margin:  0 auto;
+}
+
+.card {
+    box-shadow: 1px 1px 5px white;
+    background-color: antiquewhite;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.formulario {
+    width: 400px;
+    margin: auto;
+    padding-top: 50px;
+
+}
+
+.card-top {
+    text-align: center;
+}
+
+.card-img {
+    border-radius: 50px;
+    box-shadow: 3px 3px 6px 3px gray;
+}
+
+.login-titulo {
+    font-family: 'Merriweather', serif;
+    font-weight: 100;
+    font-size: 50px;
+    color: black;
+}
+
+.login-subtitulo {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 30px;
+    font-size: 20px;
+    color: black;
+    padding-bottom: 20px;
+}
+
+.card-grupo {
+    margin-top: 10px;
+}
+
+.card-grupo>label {
+    width: 100%;
+    color: black;
+    display: block;
+}
+
+.card-grupo>input {
+    border-radius: 5px;
+    outline: 0;
+    width: 100%;
+    height: 27px;
+    padding: 2px;
+}
+
+.card-grupo > button {
+    background-color: rgb(196, 29, 29);
+    width: 100%;
+    border-radius: 30px;
+    padding: 10px;
+    color: white;
+    border: 0px;
+}
+
+.card-grupo > button:hover {
+    background-color: rgb(163, 77, 77);
 }
